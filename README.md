@@ -1,0 +1,1 @@
+# pesquisa-sequencial-sequencialcomsentinela-binaria
