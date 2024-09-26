@@ -9,8 +9,17 @@ all:
 clean:
 	rm -f *.class
 
+runsequencial:
+	java MainPesquisaSequencial
+
+runsentinela:
+	java MainPesquisaSequencialComSentinela
+
+runbinaria:
+	java MainPesquisaBinaria
+
 git:
-	# Note que aqui é uma tabulação, e não espaços
+	# Note que aqui é uma tabulação, e não espaços:
 	git add .
 	git commit -m "Nova versão"
 	git push
